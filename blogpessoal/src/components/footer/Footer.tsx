@@ -1,0 +1,23 @@
+import { FacebookLogo, InstagramLogo, LinkedinLogo } from '@phosphor-icons/react'
+
+function Footer() {
+
+
+    return (
+        <>
+          <div className='flex gap-2'>
+	<a href="https://www.linkedin.com/in/seu_usuario" target="_blank">
+    	<LinkedinLogo size={48} weight='bold' />
+    </a>
+    <a href="https://www.instagram.com/seu_usuario" target="_blank">
+    	<InstagramLogo size={48} weight='bold' />
+    </a>
+    <a href="https://www.facebook.com/seu_usuario" target="_blank">
+    	<FacebookLogo size={48} weight='bold' />
+	</a>
+</div>
+        </>
+    )
+}
+
+export default Footer
